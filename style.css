@@ -1006,4 +1006,115 @@ footer .copyright-links {
     .hero-title {
         font-size: 48px;
     }
+
+}
+/* HERO SECTION FIX */
+.hero {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  min-height: 90vh;
+  background: #f8fafc;
+}
+
+.hero .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;   /* INI KUNCI CENTER */
+  gap: 60px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 44px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;  /* gambar tepat di tengah */
+}
+
+.placeholder-image {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+}
+
+.placeholder-image img {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+}
+
+/* floating card rapi */
+.floating-card {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  width: 90%;
+  text-align: center;
+}
+
+/* SEARCH BAR CENTER */
+.wholeSearchBar {
+  margin: 20px 0;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #ddd;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  border: none;
+  background: #ff6b6b;
+  color: white;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media(max-width: 900px){
+  .hero-content{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text, .hero-image{
+    width: 100%;
+  }
+
+  .floating-card{
+    bottom: -15px;
+  }
 }
