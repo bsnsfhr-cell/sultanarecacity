@@ -1119,3 +1119,36 @@ footer .copyright-links {
   }
 }
 
+/* ===== FIX BAGIAN ATAS TANPA MENGHAPUS ===== */
+
+/* hero jangan terlalu tinggi */
+.hero{
+  padding: 30px 0 !important;
+  margin-left: 0 !important;
+}
+
+/* judul jangan ketarik jauh ke atas */
+.hero-title{
+  margin-top: -6vh !important;   /* tadinya -30vh */
+}
+
+/* tab jangan naik terlalu jauh */
+.tab-toggle{
+  margin-top: -6vh !important;   /* tadinya -25vh */
+}
+
+/* gambar jangan ikut naik */
+.placeholder-image{
+  margin-top: 0 !important;      /* tadinya -5vh */
+}
+
+/* search box jangan bikin tinggi */
+.wholeSearchBar{
+  height: auto !important;       /* tadinya 20vh */
+  margin-top: 10px !important;   /* tadinya 10vh */
+}
+
+/* hero section jangan min-height besar */
+.hero{
+  min-height: auto !important;
+}
