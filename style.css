@@ -1129,12 +1129,12 @@ footer .copyright-links {
 
 /* judul jangan ketarik jauh ke atas */
 .hero-title{
-  margin-top: -6vh !important;   /* tadinya -30vh */
+  margin-top: -3vh !important;   /* tadinya -30vh */
 }
 
 /* tab jangan naik terlalu jauh */
 .tab-toggle{
-  margin-top: -6vh !important;   /* tadinya -25vh */
+  margin-top: -3vh !important;   /* tadinya -25vh */
 }
 
 /* gambar jangan ikut naik */
@@ -1152,3 +1152,4 @@ footer .copyright-links {
 .hero{
   min-height: auto !important;
 }
+
