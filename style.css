@@ -194,7 +194,7 @@ body {
 
 .hero-title {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--gray-900);
     line-height: 1.2;
     margin-top: -30vh;
@@ -1118,3 +1118,4 @@ footer .copyright-links {
     bottom: -15px;
   }
 }
+
